@@ -1,4 +1,4 @@
-export interface Parient {
+export interface Patient {
   id: string;
   name: string;
   caretaker: string;
@@ -7,4 +7,4 @@ export interface Parient {
   symptoms: string;
 }
 
-export type DraftParient = Omit<Parient, "id">;
+export type DraftPatient = Omit<Patient, "id">;
